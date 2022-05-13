@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C1CEB9D282D2E6700A4EBCB /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1CEB9B282D2E6700A4EBCB /* NativeAdView.xib */; };
 		1C5A649F282CF515004F6BAB /* AdMob_Native_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5A649E282CF515004F6BAB /* AdMob_Native_DemoApp.swift */; };
 		1C5A64A1282CF515004F6BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5A64A0282CF515004F6BAB /* ContentView.swift */; };
 		1C5A64A3282CF517004F6BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A64A2282CF517004F6BAB /* Assets.xcassets */; };
 		1C5A64A6282CF517004F6BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5A64A5282CF517004F6BAB /* Preview Assets.xcassets */; };
 		1C5A64AF282CF7D6004F6BAB /* Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5A64AE282CF7D6004F6BAB /* Native.swift */; };
+		1C801219282E07A4005E7EAA /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C801218282E07A4005E7EAA /* NativeAdView.xib */; };
 		C597130C60DDDAA041870D49 /* Pods_AdMob_Native_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0142A011EA1A27F07BFB4DB2 /* Pods_AdMob_Native_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0142A011EA1A27F07BFB4DB2 /* Pods_AdMob_Native_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMob_Native_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C1CEB9C282D2E6700A4EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "../../../../Downloads/googleads-mobile-ios-examples-master/Swift/admob/NativeAdvancedExample/NativeAdvancedExample/Base.lproj/NativeAdView.xib"; sourceTree = "<group>"; };
 		1C5A649B282CF515004F6BAB /* AdMob-Native-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdMob-Native-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5A649E282CF515004F6BAB /* AdMob_Native_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMob_Native_DemoApp.swift; sourceTree = "<group>"; };
 		1C5A64A0282CF515004F6BAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		1C5A64A5282CF517004F6BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C5A64AC282CF747004F6BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1C5A64AE282CF7D6004F6BAB /* Native.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Native.swift; sourceTree = "<group>"; };
+		1C801218282E07A4005E7EAA /* NativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
 		3C72D48161470C5F46299D08 /* Pods-AdMob-Native-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMob-Native-Demo.release.xcconfig"; path = "Target Support Files/Pods-AdMob-Native-Demo/Pods-AdMob-Native-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		6D1CF24B7833CA2E21306514 /* Pods-AdMob-Native-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMob-Native-Demo.debug.xcconfig"; path = "Target Support Files/Pods-AdMob-Native-Demo/Pods-AdMob-Native-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				1C5A64AE282CF7D6004F6BAB /* Native.swift */,
-				1C1CEB9B282D2E6700A4EBCB /* NativeAdView.xib */,
+				1C801218282E07A4005E7EAA /* NativeAdView.xib */,
 			);
 			path = AdMob;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C5A64A6282CF517004F6BAB /* Preview Assets.xcassets in Resources */,
-				1C1CEB9D282D2E6700A4EBCB /* NativeAdView.xib in Resources */,
+				1C801219282E07A4005E7EAA /* NativeAdView.xib in Resources */,
 				1C5A64A3282CF517004F6BAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,17 +230,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1C1CEB9B282D2E6700A4EBCB /* NativeAdView.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C1CEB9C282D2E6700A4EBCB /* Base */,
-			);
-			name = NativeAdView.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1C5A64A7282CF517004F6BAB /* Debug */ = {
